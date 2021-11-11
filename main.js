@@ -8,6 +8,7 @@ const config = {
   
   const getCountries = async (fieldName, ...args) => {
     let apiEndPoint;
+    console.log(apiEndPoint);
     switch (fieldName) {
       case "countries":
         apiEndPoint = config.cUrl;
